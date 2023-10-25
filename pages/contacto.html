@@ -10,10 +10,85 @@
 <body>
     <header>
 
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">EVAPEL</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Servicios
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./automatizacion.html">Automatización Industrial</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="./energias.html">Energías renovables</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="./transmision.html">Generación y transmisión</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="./servicios-ing.html">Servicios de Ingenieria</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./experiencias.html">Experiencias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+
     </header>
 
     <main>
+            <section class="formuContacto">
 
+                <div class="contacForm">
+                    <h2>Formulario de Contacto</h2>
+
+                <form action="/submit_form" method="post">
+                    <label for="fname">Nombre:</label>
+                    <input type="text" id="fname" name="fname">
+
+                    <label for="lname">Apellido:</label>
+                    <input type="text" id="lname" name="lname">
+
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email">
+
+                    <label for="service">Servicio</label>
+                    <select id="service" name="servicio">
+                        <option value="Automatizacion industrial">Automatizacion industrial</option>
+                        <option value="Energias renovables">Energias renovables</option>
+                        <option value="Transmision de energia">Generacion y transmision de energia</option>
+                        <option value="Servicios de ingenieria">Servicios de ingenieria</option>
+                    </select>
+                    <label for="comments">Comentarios:</label>
+                    <textarea id="comments" name="comments"></textarea>
+                    <input type="submit" value="Enviar">
+                    </form> 
+
+                    <!-- <select class="form-select" aria-label="Default select example">
+                        <option selected>Servicio que necesita</option>
+                        <option value="1">Automatizacion industrial</option>
+                        <option value="2">Transmision de energia</option>
+                        <option value="3">Energias renovables</option>
+                        <option value="4">Servicios de ingenieria</option>
+                    </select> -->
+                </div>
+            </section>
+        
     </main>
 
     <footer>
