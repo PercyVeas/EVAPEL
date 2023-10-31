@@ -1,5 +1,140 @@
+/* COLORES BACKGROUND DE TODAS LAS PAGINAS */
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
 .bodyIndex {
-  background-color: beige;
+  background-color: #fffccb;
+}
+
+.mainIndex .parrIndex {
+  box-shadow: 25px;
+}
+.mainIndex .parrIndex .tarjetaUno {
+  margin: 15px;
+  box-shadow: 5px 5px 10px;
+}
+.mainIndex .contTarjetas {
+  margin: 10px;
+}
+.mainIndex .contTarjetas .contTransmision .tarjetaTransmision {
+  box-shadow: 2px 2px 15px;
+}
+.mainIndex .contTarjetas .contAuto .tarjetaAuto {
+  box-shadow: 2px 2px 15px;
+}
+.mainIndex .contTarjetas .contServicios .tarjetaServicios {
+  box-shadow: 2px 2px 15px;
+}
+.mainIndex .contTarjetas .contServicios .tarjetaServicios .fotoServicios {
+  height: 300px;
+}
+.mainIndex .contTarjetas .contEnergias .tarjetaEnergias {
+  box-shadow: 2px 2px 15px;
+}
+.mainIndex .contTarjetas .contEnergias .tarjetaEnergias .fotoEnergias {
+  height: 300px;
+}
+
+.bodyNosotros {
+  background-color: #f0fff7;
+}
+.bodyNosotros .mainNosotros .contParrafouno {
+  margin: 20px;
+}
+.bodyNosotros .mainNosotros .contParrafouno .parrafoCard {
+  text-align: center;
+}
+.bodyNosotros .mainNosotros .imgMainnosotros {
+  margin: 5px;
+}
+.bodyNosotros .mainNosotros .imgMainnosotros .imgNosotros {
+  border-radius: 5%;
+}
+.bodyNosotros .mainNosotros .segundoContnosotros {
+  margin: 15px;
+}
+.bodyNosotros .mainNosotros .segundoContnosotros .segundoParrafonosotros {
+  text-align: center;
+}
+.bodyNosotros .mainNosotros .contImagenesnosotros {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 5px;
+}
+.bodyNosotros .mainNosotros .contImagenesnosotros .subContimagenes {
+  gap: 5px;
+  justify-content: center;
+}
+.bodyNosotros .mainNosotros .contImagenesnosotros .subContimagenes .bobina {
+  border-radius: 2%;
+}
+.bodyNosotros .mainNosotros .contImagenesnosotros .subContimagenes .instPaneles {
+  border-radius: 2%;
+}
+.bodyNosotros .mainNosotros .contImagenesnosotros .subContimagenesuno {
+  gap: 5px;
+  justify-content: center;
+}
+.bodyNosotros .mainNosotros .contImagenesnosotros .subContimagenesuno .vavlula {
+  border-radius: 2%;
+}
+.bodyNosotros .mainNosotros .contImagenesnosotros .subContimagenesuno .conexionMT {
+  border-radius: 2%;
+}
+.bodyNosotros .mainNosotros .contImagenesnosotros .subContimagenesuno .tableroControl {
+  border-radius: 2%;
+}
+.bodyNosotros .mainNosotros .contImagenesnosotros .subContimagenesdos {
+  gap: 5px;
+  justify-content: center;
+}
+.bodyNosotros .mainNosotros .contImagenesnosotros .subContimagenesdos .subEstacion {
+  border-radius: 2%;
+}
+.bodyNosotros .mainNosotros .contImagenesnosotros .subContimagenesdos .excavadoraRueda {
+  border-radius: 2%;
+}
+
+.bodyExperiencias {
+  background-color: #FCFEFD;
+}
+.bodyExperiencias .mainExperiencias {
+  padding: 5px;
+}
+.bodyExperiencias .mainExperiencias .contError {
+  text-align: center;
+}
+.bodyExperiencias .mainExperiencias .contError .botonesExperiencias {
+  gap: 5px;
+}
+.bodyExperiencias .mainExperiencias .contError .botonesExperiencias .contBoton {
+  margin: 10px;
+}
+.bodyExperiencias .mainExperiencias .contError .botonesExperiencias .contBotoninformar {
+  margin: 10px;
+}
+
+.bodyContacto {
+  background-color: #e8eeeb;
+}
+.bodyContacto .mainContacto {
+  padding: 5px;
+}
+
+.bodyContacto .footerContacto {
+  padding: 5px;
+}
+.bodyContacto .footerContacto .contContactos {
+  margin-top: 15px;
+}
+.bodyContacto .footerContacto .contContactos .iconContactos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
