@@ -27,7 +27,7 @@
 
 .bodyServicios {
   padding: 10px;
-  background-color: rgb(220, 245, 255);
+  background-color: rgb(238, 235, 227);
 }
 
 .bodyExperiencias {
@@ -240,9 +240,6 @@
     display: flex;
     margin-left: 110px;
   }
-  .footerServicios .contTrabajemosjuntos .card {
-    /* align-items: center; */
-  }
   /* CONTACTO */
   .mainContacto .formularioContacto {
     display: flex;
@@ -250,17 +247,17 @@
     text-align: center;
   }
   .mainContacto .formularioContacto .nombreForm {
-    margin-left: 280px;
+    margin-left: 265px;
   }
   .mainContacto .formularioContacto .apellidoForm {
-    margin-left: 280px;
+    margin-left: 265px;
   }
   .mainContacto .formularioContacto .contFormcorreo {
     text-align: center;
-    margin-left: 280px;
+    margin-left: 265px;
   }
   .mainContacto .formularioContacto .botonContacto {
-    margin-left: 320px;
+    margin-left: 295px;
     width: 200px;
   }
 }
@@ -280,6 +277,15 @@
     margin-left: 330px;
   }
 }
+@media (min-width: 1200px) {
+  /* CONTACTO */
+  .mainContacto .contformularioContacto .formularioContacto {
+    margin-left: 160px;
+  }
+  .mainContacto .contformularioContacto .formularioContacto .botonContacto {
+    margin-left: 340px;
+  }
+}
 @media (min-width: 1440px) {
   /* CONTACTO*/
   .mainContacto .contformularioContacto .formularioContacto {
@@ -287,6 +293,51 @@
   }
   .mainContacto .contformularioContacto .formularioContacto .botonContacto {
     margin-left: 370px;
+  }
+}
+@media (min-width: 1600px) {
+  /* CONTACTO */
+  .mainContacto .contformularioContacto .formularioContacto {
+    margin-left: 350px;
+  }
+  .mainContacto .contformularioContacto .formularioContacto .botonContacto {
+    margin-left: 400px;
+  }
+}
+@media (min-width: 1800px) {
+  /* CONTACTO */
+  .mainContacto .contformularioContacto .formularioContacto {
+    margin-left: 390px;
+  }
+  .mainContacto .contformularioContacto .formularioContacto .botonContacto {
+    margin-left: 420px;
+  }
+}
+@media (min-width: 1920px) {
+  /* CONTACTO */
+  .mainContacto .contformularioContacto .formularioContacto {
+    margin-left: 450px;
+  }
+  .mainContacto .contformularioContacto .formularioContacto .botonContacto {
+    margin-left: 420px;
+  }
+}
+@media (min-width: 2200px) {
+  /* CONTACTO */
+  .mainContacto .contformularioContacto .formularioContacto {
+    margin-left: 525px;
+  }
+  .mainContacto .contformularioContacto .formularioContacto .botonContacto {
+    margin-left: 480px;
+  }
+}
+@media (min-width: 2560px) {
+  /* CONTACTO */
+  .mainContacto .contformularioContacto .formularioContacto {
+    margin-left: 700px;
+  }
+  .mainContacto .contformularioContacto .formularioContacto .botonContacto {
+    margin-left: 480px;
   }
 }
 

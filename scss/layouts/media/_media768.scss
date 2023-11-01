@@ -7,9 +7,6 @@
         .contTrabajemosjuntos{
             display: flex;
             margin-left: 110px;
-            .card{
-                /* align-items: center; */
-            }
         }
     }
 
@@ -20,17 +17,17 @@
             flex-direction: column;
             text-align: center;
             .nombreForm{
-                margin-left: 280px;
+                margin-left: 265px;
             }
             .apellidoForm{
-                margin-left: 280px;
+                margin-left: 265px;
             }
             .contFormcorreo{
                 text-align: center;
-                margin-left: 280px;
+                margin-left: 265px;
             }
             .botonContacto{
-                margin-left: 320px;
+                margin-left: 295px;
                 width: 200px;
             }
         }
