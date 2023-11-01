@@ -1,11 +1,12 @@
 /* COLORES BACKGROUND DE TODAS LAS PAGINAS */
+/* PARRAFOS  */
 * {
   box-sizing: border-box;
   padding: 0;
 }
 
 .bodyIndex {
-  background-color: #fffccb;
+  background-color: #fffef1;
 }
 
 .mainIndex .parrIndex {
@@ -115,6 +116,61 @@
 }
 .bodyExperiencias .mainExperiencias .contError .botonesExperiencias .contBotoninformar {
   margin: 10px;
+}
+
+.bodyAuto {
+  background-color: #e0f2ff;
+}
+.bodyAuto .mainAuto .textocardAuto {
+  margin-top: 80px;
+  color: white;
+}
+.bodyAuto .mainAuto .contParraauto .divParrafoauto {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+}
+
+.footerAuto .serviciosAutomatizacion {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.footerAuto .serviciosAutomatizacion .primerTrabajoauto {
+  background-color: rgb(237, 237, 237);
+  border-radius: 20px;
+}
+
+.bodyEnergias {
+  background-color: #E8F8FE;
+}
+.bodyEnergias .mainEnergias {
+  margin: 0;
+}
+.bodyEnergias .mainEnergias .contParraenergias {
+  padding: 5px;
+}
+
+.footerEnergias .servicioEnergias {
+  padding: 5px;
+}
+
+.mainTransmision .contParratransmision {
+  padding: 10px;
+}
+.mainTransmision .contParratransmision .divParrafotransmision {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerTransmision .serviciosTransmision {
+  padding: 10px;
+}
+
+.bodyServicios {
+  padding: 10px;
+  gap: 10px;
 }
 
 .bodyContacto {
