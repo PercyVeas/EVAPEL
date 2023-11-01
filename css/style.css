@@ -9,8 +9,38 @@
   background-color: #fffef1;
 }
 
+.bodyNosotros {
+  background-color: #f0fff7;
+}
+
+.bodyAuto {
+  background-color: #e0f2ff;
+}
+
+.bodyEnergias {
+  background-color: #E8F8FE;
+}
+
+.bodyTransmision {
+  background-color: rgb(241, 250, 255);
+}
+
+.bodyServicios {
+  padding: 10px;
+  background-color: rgb(220, 245, 255);
+}
+
+.bodyExperiencias {
+  background-color: #FCFEFD;
+}
+
+.bodyContacto {
+  background-color: #e8eeeb;
+}
+
 .mainIndex .parrIndex {
   box-shadow: 25px;
+  margin-top: 50px;
 }
 .mainIndex .parrIndex .tarjetaUno {
   margin: 15px;
@@ -25,11 +55,17 @@
 .mainIndex .contTarjetas .contAuto .tarjetaAuto {
   box-shadow: 2px 2px 15px;
 }
+.mainIndex .contTarjetas .contServicios {
+  margin-bottom: 10px;
+}
 .mainIndex .contTarjetas .contServicios .tarjetaServicios {
   box-shadow: 2px 2px 15px;
 }
 .mainIndex .contTarjetas .contServicios .tarjetaServicios .fotoServicios {
   height: 300px;
+}
+.mainIndex .contTarjetas .contEnergias {
+  margin-bottom: 10px;
 }
 .mainIndex .contTarjetas .contEnergias .tarjetaEnergias {
   box-shadow: 2px 2px 15px;
@@ -38,94 +74,85 @@
   height: 300px;
 }
 
-.bodyNosotros {
-  background-color: #f0fff7;
-}
-.bodyNosotros .mainNosotros .contParrafouno {
+.mainNosotros .contParrafouno {
   margin: 20px;
 }
-.bodyNosotros .mainNosotros .contParrafouno .parrafoCard {
+.mainNosotros .contParrafouno .parrafoCard {
   text-align: center;
 }
-.bodyNosotros .mainNosotros .imgMainnosotros {
+.mainNosotros .imgMainnosotros {
   margin: 5px;
 }
-.bodyNosotros .mainNosotros .imgMainnosotros .imgNosotros {
+.mainNosotros .imgMainnosotros .imgNosotros {
   border-radius: 5%;
 }
-.bodyNosotros .mainNosotros .segundoContnosotros {
+.mainNosotros .segundoContnosotros {
   margin: 15px;
 }
-.bodyNosotros .mainNosotros .segundoContnosotros .segundoParrafonosotros {
+.mainNosotros .segundoContnosotros .segundoParrafonosotros {
   text-align: center;
 }
-.bodyNosotros .mainNosotros .contImagenesnosotros {
+.mainNosotros .contImagenesnosotros {
   display: flex;
   flex-direction: column;
   padding: 15px;
   gap: 5px;
 }
-.bodyNosotros .mainNosotros .contImagenesnosotros .subContimagenes {
+.mainNosotros .contImagenesnosotros .subContimagenes {
   gap: 5px;
   justify-content: center;
 }
-.bodyNosotros .mainNosotros .contImagenesnosotros .subContimagenes .bobina {
+.mainNosotros .contImagenesnosotros .subContimagenes .bobina {
   border-radius: 2%;
 }
-.bodyNosotros .mainNosotros .contImagenesnosotros .subContimagenes .instPaneles {
+.mainNosotros .contImagenesnosotros .subContimagenes .instPaneles {
   border-radius: 2%;
 }
-.bodyNosotros .mainNosotros .contImagenesnosotros .subContimagenesuno {
+.mainNosotros .contImagenesnosotros .subContimagenesuno {
   gap: 5px;
   justify-content: center;
 }
-.bodyNosotros .mainNosotros .contImagenesnosotros .subContimagenesuno .vavlula {
+.mainNosotros .contImagenesnosotros .subContimagenesuno .vavlula {
   border-radius: 2%;
 }
-.bodyNosotros .mainNosotros .contImagenesnosotros .subContimagenesuno .conexionMT {
+.mainNosotros .contImagenesnosotros .subContimagenesuno .conexionMT {
   border-radius: 2%;
 }
-.bodyNosotros .mainNosotros .contImagenesnosotros .subContimagenesuno .tableroControl {
+.mainNosotros .contImagenesnosotros .subContimagenesuno .tableroControl {
   border-radius: 2%;
 }
-.bodyNosotros .mainNosotros .contImagenesnosotros .subContimagenesdos {
+.mainNosotros .contImagenesnosotros .subContimagenesdos {
   gap: 5px;
   justify-content: center;
 }
-.bodyNosotros .mainNosotros .contImagenesnosotros .subContimagenesdos .subEstacion {
+.mainNosotros .contImagenesnosotros .subContimagenesdos .subEstacion {
   border-radius: 2%;
 }
-.bodyNosotros .mainNosotros .contImagenesnosotros .subContimagenesdos .excavadoraRueda {
+.mainNosotros .contImagenesnosotros .subContimagenesdos .excavadoraRueda {
   border-radius: 2%;
 }
 
-.bodyExperiencias {
-  background-color: #FCFEFD;
-}
-.bodyExperiencias .mainExperiencias {
+.mainExperiencias {
   padding: 5px;
 }
-.bodyExperiencias .mainExperiencias .contError {
+.mainExperiencias .contError {
   text-align: center;
 }
-.bodyExperiencias .mainExperiencias .contError .botonesExperiencias {
+.mainExperiencias .contError .botonesExperiencias {
   gap: 5px;
 }
-.bodyExperiencias .mainExperiencias .contError .botonesExperiencias .contBoton {
+.mainExperiencias .contError .botonesExperiencias .contBoton {
   margin: 10px;
 }
-.bodyExperiencias .mainExperiencias .contError .botonesExperiencias .contBotoninformar {
+.mainExperiencias .contError .botonesExperiencias .contBotoninformar {
   margin: 10px;
 }
 
-.bodyAuto {
-  background-color: #e0f2ff;
-}
-.bodyAuto .mainAuto .textocardAuto {
+.mainAuto .textocardAuto {
   margin-top: 80px;
   color: white;
 }
-.bodyAuto .mainAuto .contParraauto .divParrafoauto {
+.mainAuto .contParraauto .divParrafoauto {
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -142,13 +169,10 @@
   border-radius: 20px;
 }
 
-.bodyEnergias {
-  background-color: #E8F8FE;
-}
-.bodyEnergias .mainEnergias {
+.mainEnergias {
   margin: 0;
 }
-.bodyEnergias .mainEnergias .contParraenergias {
+.mainEnergias .contParraenergias {
   padding: 5px;
 }
 
@@ -168,15 +192,29 @@
   padding: 10px;
 }
 
-.bodyServicios {
-  padding: 10px;
+.mainServicios .contParrservicios {
+  display: flex;
+  flex-direction: column;
   gap: 10px;
 }
-
-.bodyContacto {
-  background-color: #e8eeeb;
+.mainServicios .contParrservicios .divParrafoservicios .tituloServicios {
+  text-align: center;
 }
-.bodyContacto .mainContacto {
+.mainServicios .contParrservicios .divParrafoservicios .tarjetaServiciosuno {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.footerServicios .contTrabajemosjuntos {
+  margin: 15px;
+}
+.footerServicios .contTrabajemosjuntos .botonServicio {
+  margin-top: 20px;
+}
+
+.mainContacto {
   padding: 5px;
 }
 
@@ -191,6 +229,65 @@
   flex-direction: column;
   align-items: center;
   gap: 15px;
+}
+
+@media (min-width: 768px) {
+  /* SERVICIOS DE INGENIERIA */
+  .footerServicios {
+    display: flex;
+  }
+  .footerServicios .contTrabajemosjuntos {
+    display: flex;
+    margin-left: 110px;
+  }
+  .footerServicios .contTrabajemosjuntos .card {
+    /* align-items: center; */
+  }
+  /* CONTACTO */
+  .mainContacto .formularioContacto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .mainContacto .formularioContacto .nombreForm {
+    margin-left: 280px;
+  }
+  .mainContacto .formularioContacto .apellidoForm {
+    margin-left: 280px;
+  }
+  .mainContacto .formularioContacto .contFormcorreo {
+    text-align: center;
+    margin-left: 280px;
+  }
+  .mainContacto .formularioContacto .botonContacto {
+    margin-left: 320px;
+    width: 200px;
+  }
+}
+@media (min-width: 1024px) {
+  /* CONTACTO */
+  .mainContacto .contformularioContacto {
+    align-items: center;
+  }
+  .mainContacto .contformularioContacto .formularioContacto {
+    margin-left: 90px;
+  }
+  .mainContacto .contformularioContacto .formularioContacto .contFormcorreo {
+    text-align: center;
+  }
+  .mainContacto .contformularioContacto .formularioContacto .botonContacto {
+    width: 200px;
+    margin-left: 330px;
+  }
+}
+@media (min-width: 1440px) {
+  /* CONTACTO*/
+  .mainContacto .contformularioContacto .formularioContacto {
+    margin-left: 250px;
+  }
+  .mainContacto .contformularioContacto .formularioContacto .botonContacto {
+    margin-left: 370px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

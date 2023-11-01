@@ -1,0 +1,39 @@
+
+@media (min-width: 768px){
+
+    /* SERVICIOS DE INGENIERIA */
+    .footerServicios{
+        display: flex;
+        .contTrabajemosjuntos{
+            display: flex;
+            margin-left: 110px;
+            .card{
+                /* align-items: center; */
+            }
+        }
+    }
+
+    /* CONTACTO */
+    .mainContacto{
+        .formularioContacto{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            .nombreForm{
+                margin-left: 280px;
+            }
+            .apellidoForm{
+                margin-left: 280px;
+            }
+            .contFormcorreo{
+                text-align: center;
+                margin-left: 280px;
+            }
+            .botonContacto{
+                margin-left: 320px;
+                width: 200px;
+            }
+        }
+    }
+
+}
