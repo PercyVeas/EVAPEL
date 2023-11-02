@@ -164,8 +164,8 @@
   display: flex;
   flex-direction: column;
 }
-.footerAuto .serviciosAutomatizacion .primerTrabajoauto {
-  background-color: rgb(237, 237, 237);
+.footerAuto .serviciosAutomatizacion .TrabajosAuto {
+  background-color: rgb(193, 170, 170);
   border-radius: 20px;
 }
 
@@ -178,6 +178,10 @@
 
 .footerEnergias .servicioEnergias {
   padding: 5px;
+}
+.footerEnergias .servicioEnergias .segundoTrabajoenergias {
+  background-color: rgb(193, 170, 170);
+  border-radius: 9999px;
 }
 
 .mainTransmision .contParratransmision {
@@ -281,6 +285,15 @@
   /* CONTACTO */
   .mainContacto .contformularioContacto .formularioContacto {
     margin-left: 160px;
+  }
+  .mainContacto .contformularioContacto .formularioContacto .botonContacto {
+    margin-left: 340px;
+  }
+}
+@media (min-width: 1280px) {
+  /* MAIN CONTACTO */
+  .mainContacto .contformularioContacto .formularioContacto {
+    margin-left: 200px;
   }
   .mainContacto .contformularioContacto .formularioContacto .botonContacto {
     margin-left: 340px;

@@ -2,5 +2,9 @@
 .footerEnergias{
     .servicioEnergias{
         padding: 5px;
+        .segundoTrabajoenergias{
+            background-color: $colorParrafoauto;
+            border-radius: 9999px;
+        }
     }
 }
